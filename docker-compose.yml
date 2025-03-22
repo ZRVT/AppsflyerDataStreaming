@@ -29,5 +29,5 @@ services:
     depends_on:
       - kafka
     environment:
-      KAFKA_BROKER: 172.31.82.212:9092  # <-- also match this to IP
+      KAFKA_BROKER: kafka:9092
       KAFKA_TOPIC: AppsflyerDataStreamingService
